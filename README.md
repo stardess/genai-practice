@@ -17,11 +17,11 @@ Editing the log or policy hides the previous report, clears its review decisions
 
 ## Open the prototype
 
-- [Open the interactive development preview (Replit)](https://95b257b0-f686-42df-8363-94ea66580399-00-22s95bwmnezby.picard.replit.dev/?review=first-working-slice)
+- [Open the live prototype (Replit)](https://genai-practice-karitonze.replit.app/)
 - Source code: https://github.com/stardess/genai-practice
 - Run it yourself: open `index.html` in a browser, or run `python3 -m http.server 5000 --bind 0.0.0.0` from the repository directory and open the server's preview. No package installation, API key, or backend is required.
 
-Use synthetic logs only. The link above is a development preview, not a published release; verify it opens before submitting. If an older page appears, open the preview with a new query parameter. Download remains available if the browser blocks clipboard access.
+Use synthetic logs only. Download remains available if the browser blocks clipboard access.
 
 ## AI role: what's real and what's simulated
 
@@ -41,7 +41,7 @@ The app detects a sample by exact text match. If you edit a sample log, it is tr
 
 ## Test results
 
-Run on 2026-10-15 in a real Chromium browser against the Replit development preview. Downloaded Markdown files were opened and inspected; these are observed results, not expected outcomes.
+Run on 2026-10-15 in a real Chromium browser against the Replit prototype. Downloaded Markdown files were opened and inspected; these are observed results, not expected outcomes.
 
 | Test | Input or action | What happened | Pass, partial, or fail |
 | --- | --- | --- | --- |
